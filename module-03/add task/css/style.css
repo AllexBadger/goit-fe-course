@@ -136,6 +136,24 @@ font-size: 0px;
     margin-right: 0px;
 }
 
+.pack{
+    padding-left: 120px;
+
+}
+
+.specificity{
+    font-size: 30px;
+    color: rebeccapurple;
+    height: 75px;
+    width: 1300px;
+    margin-bottom: 100px;
+
+}
+
+.word{
+    display: inline-block;
+    margin-right: 60px;
+}
 
 
 

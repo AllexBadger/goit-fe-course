@@ -203,11 +203,11 @@ background-position: center;
 }
 
 .img-7::before{
-  background-image: url(../module-04/img/7.png);
+  background-image: url(7.png);
 }
 
 .img-8::before{
-  background-image: url(/module-04/img/8.png);
+  background-image: url(module-04/img/8.png);
 }
 
 

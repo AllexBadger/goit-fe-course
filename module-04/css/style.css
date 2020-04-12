@@ -279,7 +279,7 @@ background: #ffffff;
     background-image: url(/ipad.png);
   }
   .slide::before{
-    background-image: url(.img/slide.png);
+    background-image: url(..img/slide.png);
   }
   .bus::before{
     background-image: url(img/bus.png);

@@ -179,23 +179,23 @@ background-position: center;
 }
 
 .img-1::before{
-  background-image: url(img/1.png);
+  background-image: url(//1.png);
 }
 
 .img-2::before{
-  background-image: url(img/2.png);
+  background-image: url(2.png);
 }
 
 .img-3::before{
-  background-image: url(img/3.png);
+  background-image: url(/3.png);
 }
 
 .img-4::before{
-  background-image: url(img/4.png);
+  background-image: url(/img/4.png);
 }
 
 .img-5::before{
-  background-image: url(/css/img/5.png);
+  background-image: url(css/img/5.png);
 }
 
 .img-6::before{

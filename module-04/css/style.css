@@ -187,27 +187,27 @@ background-position: center;
 }
 
 .img-3::before{
-  background-image: url(/module-04/img/3.png);
+  background-image: url(..img/3.png);
 }
 
 .img-4::before{
-  background-image: url(/module-04/img/4.png);
+  background-image: url(..img/4.png);
 }
 
 .img-5::before{
-  background-image: url(./5.png);
+  background-image: url(../img/5.png);
 }
 
 .img-6::before{
-  background-image: url(../6.png);
+  background-image: url(../img/6.png);
 }
 
 .img-7::before{
-  background-image: url(7.png);
+  background-image: url(../img/7.png);
 }
 
 .img-8::before{
-  background-image: url(module-04/img/8.png);
+  background-image: url(../img/8.png);
 }
 
 
@@ -276,13 +276,13 @@ background: #ffffff;
   }
   
   .ipad::before{
-    background-image: url(/ipad.png);
+    background-image: url(../img/ipad.png);
   }
   .slide::before{
     background-image: url(..img/slide.png);
   }
   .bus::before{
-    background-image: url(img/bus.png);
+    background-image: url(../img/bus.png);
   }
 
 .name-news{

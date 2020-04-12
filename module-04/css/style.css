@@ -276,7 +276,7 @@ background: #ffffff;
   }
   
   .ipad::before{
-    background-image: url(img/ipad.png);
+    background-image: url(/ipad.png);
   }
   .slide::before{
     background-image: url(img/slide.png);

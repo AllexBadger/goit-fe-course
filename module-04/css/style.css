@@ -195,11 +195,11 @@ background-position: center;
 }
 
 .img-5::before{
-  background-image: url(/module-04/img/5.png);
+  background-image: url(./5.png);
 }
 
 .img-6::before{
-  background-image: url(./module-04/img/6.png);
+  background-image: url(../6.png);
 }
 
 .img-7::before{

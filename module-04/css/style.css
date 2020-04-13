@@ -187,11 +187,11 @@ background-position: center;
 }
 
 .img-3::before{
-  background-image: url(..img/3.png);
+  background-image: url(../img/3.png);
 }
 
 .img-4::before{
-  background-image: url(..img/4.png);
+  background-image: url(../img/4.png);
 }
 
 .img-5::before{
@@ -279,7 +279,7 @@ background: #ffffff;
     background-image: url(../img/ipad.png);
   }
   .slide::before{
-    background-image: url(..img/slide.png);
+    background-image: url(../img/slide.png);
   }
   .bus::before{
     background-image: url(../img/bus.png);

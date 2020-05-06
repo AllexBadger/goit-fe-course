@@ -44,9 +44,7 @@ margin: 0 auto;
 /* NAVIGATION */
 
 .header{
-/* margin-top: 38px; */
 margin-bottom: 115px;
-/* margin: 0 auto; */
 padding: 0px;
 box-sizing: border-box; 
 display: block;
@@ -186,7 +184,6 @@ justify-content: space-between;
 font-size: 0px;
 width: 391px;
 margin: 0px;
-margin-left: 9px;
 margin-bottom: 105px;
 }
 

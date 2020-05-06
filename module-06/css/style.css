@@ -179,13 +179,14 @@ background: #f38181;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
+justify-content: space-between;
 }
 
 .item{
 font-size: 0px;
-width: 380px;
+width: 391px;
 margin: 0px;
-margin-left: 20px;
+margin-left: 9px;
 margin-bottom: 105px;
 }
 

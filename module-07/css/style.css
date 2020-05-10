@@ -193,7 +193,7 @@ background-position: 9px 11px;
 }
 
 .lock::before{
-background: url(./img/Icon-Locked.png) no-repeat center;
+background: url(img/Icon-Locked.png) no-repeat center;
 background-position: 15px 8px;
 
 }

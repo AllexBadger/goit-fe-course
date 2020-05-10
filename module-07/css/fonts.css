@@ -34,8 +34,8 @@ font-family: 'Leckerli One';
 font-style: normal;
 font-weight: 400;
 src: local('Leckerli One'), local('LeckerliOne-Regular'),
-url('/module-07/fonts/leckerli-one/leckerli-one-v10-latin-regular.woff2') format('woff2'),
-url('/module-07/fonts/leckerli-one/leckerli-one-v10-latin-regular.woff') format('woff'); 
+url('../fonts/leckerli-one/leckerli-one-v10-latin-regular.woff2') format('woff2'),
+url('../fonts/leckerli-one/leckerli-one-v10-latin-regular.woff') format('woff'); 
 }
 
 /* merriweather-700italic - latin */

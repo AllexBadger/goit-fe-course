@@ -23,7 +23,7 @@ url('../fonts/montserrat-v14-latin-700.woff') format('woff');
 font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 400;
-src: local(''),
+src: local('Roboto Slab'),
 url('../fonts/roboto-slab-v11-latin-regular.woff2') format('woff2'),
 url('../fonts/roboto-slab-v11-latin-regular.woff') format('woff');  
 }

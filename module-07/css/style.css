@@ -305,14 +305,18 @@ border: 0px solid;
 color: #414141;  
 }
 
-.input-cover:invalid:focus{
-border-bottom: 2px solid #fe4d36;
-}
 .input-cover:valid:focus{
 border-bottom: 2px solid #36fe89;
 }
 .input-cover:valid{
 border-bottom: 2px solid #36fe89;
+}
+.input-cover:focus{
+outline: 0;
+background: rgb(255, 255, 255);
+}
+.input-cover:invalid:not(:focus):not(:placeholder-shown){
+border-bottom: 2px solid #fe4d36;    
 }
 
 

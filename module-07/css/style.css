@@ -340,7 +340,9 @@ color: #414141;
     
   
 .button-style{
-display: block;
+position: absolute;
+bottom: -530px;
+left: 714px;
 font-family:'Montserrat',sans-serif;
 font-weight: 700;
 color: #ffffff;

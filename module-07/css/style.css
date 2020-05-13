@@ -180,22 +180,18 @@ color: #fed136;
 border: 3px solid;
 }
 
-.basket::before{
-background: url(../img/Icon-Basket.png) no-repeat center;
-background-size: 39px;
-background-position: 10px 10px;
+.input-cover:invalid{
+border-bottom: 2px solid #ffffff;
 }
-
-.laptop::before{
-background: url(../img/Icon-Laptop.png) no-repeat center;
-background-size: 41px;
-background-position: 9px 11px;
+.input-cover:valid{
+border-bottom: 2px solid #36fe89;
 }
-
-.lock::before{
-background: url(../img/Icon-Locked.png) no-repeat center;
-background-position: 15px 8px;
-
+.input-cover:focus{
+outline: 0;
+background: rgb(255, 255, 255);
+}
+.input-cover:invalid:not(:focus):not(:placeholder-shown){
+border-bottom: 2px solid #fe4d36;    
 }
 
 .item-headline{

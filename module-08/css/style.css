@@ -53,7 +53,7 @@ height: auto;
 max-width: 100%;
 background: linear-gradient(to right, rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../img/BG-header.png) no-repeat;
 background-position: 54% 9%;
-/* background-size: cover; */
+background-size: cover; 
 }
 
 .menu{}

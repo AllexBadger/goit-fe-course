@@ -97,7 +97,7 @@ text-align: center;
 }
     
 .logo-span{
-font-family: 'Montserrat';
+font-family: 'Montserrat',sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
@@ -106,7 +106,7 @@ color: #ffffff;
         
 
 .a-item{
-font-family: 'Montserrat';
+font-family: 'Montserrat',sans-serif;
 font-style: normal;
 font-weight: 700;
 color: #ffffff;
@@ -206,7 +206,7 @@ flex-direction: column;
 }
 .headline2{
 text-align: center;
-font-family: 'Montserrat';
+font-family: 'Montserrat',sans-serif;
 font-style: normal;
 font-weight: 700;
 color: #000000;
@@ -228,7 +228,7 @@ margin-bottom: 20px;
 
 .name{
 text-align: center;
-font-family: 'Montserrat';
+font-family: 'Montserrat',sans-serif;
 font-style: normal;
 font-weight: 700;
 color: #000000;
@@ -241,7 +241,7 @@ margin-bottom: 18px;
 .ocupation{
 display: block;
 text-align: center;
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;

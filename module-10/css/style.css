@@ -54,7 +54,7 @@ img {
 .background-nav {
     max-width: 100%;
     height: auto;
-    background: url(/module-10/img/background-nav.png)no-repeat;
+    background: url(../img/background-nav.png)no-repeat;
     background-size: cover;
 }
 
@@ -75,7 +75,7 @@ img {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .background-nav {
-        background: url(/module-10/img/background-nav@2x.png)no-repeat;
+        background: url(../img/background-nav@2x.png)no-repeat;
         background-size: cover;
     }
 }

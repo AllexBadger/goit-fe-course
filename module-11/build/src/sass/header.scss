@@ -1,0 +1,175 @@
+.wrapper {
+width: 100%;
+}
+
+.background-nav {
+    max-width: 100%;
+    height: auto;
+    background: url(../images/background-nav.png)no-repeat;
+    background-size: cover;
+}
+
+.page-header {
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .background-nav {
+        background: url(../images/background-nav@2x.png)no-repeat;
+        background-size: cover;
+    }
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 79px;
+    margin-bottom: 130px;
+    padding-top: 29px;
+    }
+    
+    .logo {
+        width: 92px;
+        margin: 0px;
+    &_link {
+        text-decoration: none;
+    }
+    &_letter {
+        font-family: $font-logo;
+        font-weight: 700;
+        font-size: 30px;
+        color: $color-logo;
+    }
+    }
+
+    .site-navigation {
+        display: flex;
+        margin: 0px;
+        margin-top: 14px;
+        padding: 0px;
+    }
+    
+    .site-navigation_item {
+        list-style: none;
+        margin-right: 42px;
+    }
+    
+    .site-navigation_link {
+        display: block;
+        text-align: center;
+        font-family: $font-navigation-link;
+        font-weight: 400;
+        color: $color-nav-links;
+        font-size: 14px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition-duration: 200ms;
+    }
+
+    .site-navigation li:last-child {
+        margin-right: 0px;
+    }
+    
+    .site-navigation_item:nth-last-child(2) {
+        margin-right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .site-navigation a:hover,
+    .site-navigation a:focus {
+        color: $color-hover;
+    }
+    
+
+    .site-navigation_link:after {
+        display: block;
+        content: '';
+        margin: auto;
+        margin-top: 12px;
+        width: 50px;
+        height: 3px;
+        background: $color-hover;
+        opacity: 0;
+    }
+    
+    .site-navigation_link:hover:after {
+        transition-duration: 200ms;
+        transition-timing-function: linear;
+        opacity: 1;
+    }
+    
+    .site-navigation a:focus .site-navigation_icon-shop:hover {
+        fill: $color-hover;
+    }
+    
+    .site-navigation a:focus .site-navigation_icon-shop,
+    .site-navigation_icon-glass:hover {
+        fill: $color-hover;
+    }
+    
+    .site-navigation_icon-shop,
+    .site-navigation_icon-glass {
+        fill: $color-nav-links
+    }
+    
+    .site-navigation_icon-glass:hover,
+    .site-navigation_icon-shop:hover {
+        fill: $color-hover;
+    }
+    
+    
+    .banner-title {
+        margin-bottom: 80px;
+    }
+
+    .banner-title_subline {
+        display: block;
+        text-align: center;
+        margin: 0px;
+        font-family: $font-title-subline;
+        font-weight: 700;
+        color: $color-banner-title;
+        font-size: 150px;
+        text-transform: uppercase;
+    }
+    
+    .banner-title_headline {
+        display: block;
+        margin: 0px;
+        margin-bottom: 18px;
+        font-family: $font-title-headline;
+        font-weight: 400;
+        color: $color-banner-title;
+        font-size: 72px;
+        text-decoration: none;
+        text-transform: initial;
+    }
+    
+    .banner-btn {
+        text-align: center;
+    }
+    
+    .banner-btn--style {
+        font-family: $font-banner-btn;
+        font-weight: 700;
+        color: $color-btn--style;
+        font-size: 14px;
+        text-transform: uppercase;
+        border: 2px solid $color-btn--style;
+        background: transparent;
+        width: 160px;
+        height: 40px;
+        cursor: pointer;
+        fill: $color-btn--style;
+    }
+      

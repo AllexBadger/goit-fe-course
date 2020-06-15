@@ -1,0 +1,71 @@
+.page-footer {
+    width: 1200px;
+    margin: auto;
+    display: block;
+}
+
+.page-footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page-footer_copyright {
+    margin: 0px;
+    margin-top: 24px;
+    margin-bottom: 27px;
+    font-family: $font-footer_copyright;
+    font-weight: 400;
+    color: $color-footer-copyright;
+    font-size: 14px;
+}
+
+.page-footer_form {
+    margin-top: 11px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.page-footer_line {
+    width: 1200px;
+    height: 1px;
+    background: $color-footer-line;
+}
+
+.page-footer_last-word {
+    color: $color-footer-last-word;
+}
+
+.page-footer_input-cover::placeholder {
+    color: $color-footer-input-cover;
+
+}
+
+.page-footer_input-cover:placeholder-shown {
+    color: $color-footer-input-cover;
+    border: 1px solid $color-footer-input-cover;
+    width: 230px;
+    height: 40px;
+    padding-left: 12px;
+}
+
+.page-footer_input-cover {
+    font-family: $font-footer-input-cover;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.page-footer_button {
+    font-family: $font-footer_button;
+    font-weight: 700;
+    color: $color-footer-button;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: $color-footer-bg;
+    border: 0px solid;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
